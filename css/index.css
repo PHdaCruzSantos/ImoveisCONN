@@ -1,0 +1,64 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:root{
+  --green-01: #98f6a9;
+  --green-02: #9bd3ae;
+  --salmon-01: #ffeebc;
+  --salmon-02: #e2e3e7;
+  --ciano-01: #4afde7;
+
+  --black-01: #000000;
+  --black-02: #333333;
+  --black-03: #4f4f4f;
+
+  --white-01: #ffffff;
+  --white-02: #f2f2f2;
+  --white-03: #e6e6e6;
+
+  --gray-01: #e2e3e7;
+  --gray-02: #bfbfbf;
+  --gray-03: #999999;
+
+  
+} 
