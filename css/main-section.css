@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .main_section .main_section_left{
@@ -28,7 +29,7 @@
   text-decoration: underline var(--green-01);
 }
 
-.main_section .main_section_left button {
+.main_section .main_section_left .main_section_left_btn {
   width: 255px;
   height: 50px;
   border: none;
@@ -42,7 +43,7 @@
   border: 2px solid transparent;
 }
 
-.main_section .main_section_left button:hover {
+.main_section .main_section_left .main_section_left_btn:hover {
   border: 2px solid var(--green-02);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
 }
