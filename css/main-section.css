@@ -1,0 +1,48 @@
+.main_section {
+  width: 1080px;
+  height: 500px;
+  margin: 0 auto;
+  background: url("../assets/img/main-section-bg.png"), lightgray 1.848px -180.276px / 100% 145.386% no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_section .main_section_left{
+  width: 404px;
+  
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_section .main_section_left h1{
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Inter', serif;
+  color: var(--black-01);
+  text-align: center;
+  text-shadow: rgba(0, 0, 0,  0.25) 0px 4px 4px;
+  text-decoration: underline var(--green-01);
+}
+
+.main_section .main_section_left button {
+  width: 255px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--green-01);
+  color: var(--black-01);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Inter', serif;
+  border: 2px solid transparent;
+}
+
+.main_section .main_section_left button:hover {
+  border: 2px solid var(--green-02);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
