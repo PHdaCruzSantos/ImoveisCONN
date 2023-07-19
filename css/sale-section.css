@@ -1,0 +1,55 @@
+.sale_section {
+  width: 1076px;
+  height: 590px;
+  background-color: var(--white-03);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.sale_section .sale_section_title {
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: var(--black-01);
+  margin-bottom: 20px;
+}
+
+.sale_section .sale_section_txt {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  color: var(--black-01);
+  margin-bottom: 20px;
+}
+
+.sale_section .wraper_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.sale_section .wraper_card .h_line {
+  width: 1px;
+  height: 400px;
+  background-color: var(--ciano-01);
+}
+
+.sale_section .sale_section_btn {
+  width: 280px;
+  height: 35px;
+  background-color: var(--gray-02);
+  color: var(--ciano-01);
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}

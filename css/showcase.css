@@ -1,0 +1,168 @@
+.showcase{
+  width: 100%;
+  height: 530px;
+  padding: 10px;
+  border: 1px solid var(--ciano-01);
+  background-color: var(--gray-02);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.showcase_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.showcase .showcase_title{
+  font-size: 24px;
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  text-align: center;
+  color: var(--black-01);
+  margin-bottom: 20px;
+}
+
+.showcase_card .showcase_card_img{
+  width: 300px;
+  height: 200.024px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.showcase_card_info .showcase_card_info_title{
+  font-family: "Marcellus SC", serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px ;
+
+  color: var(--black-01);
+ 
+  text-decoration-line: underline;
+}
+
+.showcase_card .showcase_card_info_txt{
+  font-size: 15px;
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px ;
+  color: var(--black-01);
+}
+
+.showcase_card_info .showcase_card_info_icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.showcase_card_info .showcase_card_info_icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.showcase_card_info .showcase_card_info_icons legend {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.showcase_card .showcase_card_info_tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.showcase_card_info .showcase_card_info_tags .showcase_card_info_tags_tag {
+  display: table;
+  padding: 5px;
+  background-color: var(--salmon-02);
+  height: 20px;
+  border-radius: 5px;
+  color: var(--black-01);
+  border: 2px solid var(--ciano-01);
+}
+
+.showcase_card_info .showcase_card_info_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.showcase_card_info .showcase_card_info_price .price_l span {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  color: var(--green-03);
+  margin: 5px 0 ;
+}
+.showcase_card_info .showcase_card_info_price .price_l p {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  color: var(--black-01);
+  margin: 5px 0 ;
+}
+
+.showcase_card_info .showcase_card_info_price .price_r p {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  color: var(--black-01);
+}
+
+.showcase_card_info .showcase_card_info_price .price_r a {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: right;
+  color: var(--green-03);
+  margin: 5px 0 ;
+  text-decoration: underline;
+}
+
+.showcase .sale_section_btn {
+  width: 280px;
+  height: 35px;
+  background-color: var(--gray-02);
+  color: var(--ciano-01);
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.showcase .sale_section_btn:hover {
+  background-color: var(--salmon-02);
+  color: var(--black-01);
+  transition: 0.5s;
+}

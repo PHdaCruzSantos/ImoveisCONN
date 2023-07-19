@@ -64,7 +64,7 @@
   
 }
 
-.main_content .main_content_btn {
+ .main_content_btn {
   width: 280px;
   height: 35px;
   background-color: var(--gray-01);
@@ -76,6 +76,7 @@
   cursor: pointer;
   padding: 10px;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .main_content .main_content_btn:hover {
