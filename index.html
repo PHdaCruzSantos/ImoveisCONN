@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/main-section.css">
   <link rel="stylesheet" href="./css/main-content.css">
-  <link rel="stylesheet" href="./css/sale-section.css">
+  <link rel="stylesheet" href="./css/product-section.css">
   <link rel="stylesheet" href="./css/showcase.css">
 
 
@@ -33,16 +33,16 @@
     <div class="menu">
       <ul>
         <li><a href="#">Início</a></li>
-        <li><a href="">Imóveis</a></li>
-        <li><a href="">Sobre Nós</a></li>
-        <li><a href="">Clientes</a></li>
-        <li><a href="">Fale Conosco</a></li>
+        <li><a href="#imoveis">Imóveis</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Fale Conosco</a></li>
       </ul>
     </div>
   </header>
   <div class="line"></div>
 
-  <section class="main_section">
+  <section id="inicio" class="main_section">
     <div class="main_section_left">
       <h1>Aluguel e compra de imóveis refinados</h1>
       <button type="button" class="main_section_left_btn">Conhecer agora →</button>
@@ -92,11 +92,11 @@
 
   </main>
 
-  <section class="sale_section">
-    <h1 class="sale_section_title">
+  <section class="product_section" id="imoveis">
+    <h1 class="product_section_title">
       Galeria de Imóveis Exclusivos para você
     </h1>
-    <p class="sale_section_txt">
+    <p class="product_section_txt">
       Conheça os melhores imóveis da cidade que estão esperando por você. Gostou de algum? Entre em contato e faça uma visita detalhada.
     </p>
 
@@ -234,7 +234,141 @@
             </div>
           </div>
       </div>
-      <button type="button" class="sale_section_btn"> Mais Opçôes → </button>
+      <button type="button" class="product_section_btn"> Mais Opçôes → </button>
+    </div>
+
+    <div class="showcase">
+      <h2 class="showcase_title">
+        Aluguel
+      </h2>
+      <div class="wraper_card">
+
+          <div class="showcase_card">
+            <img class="showcase_card_img" src="assets/img/showsace-rent-card-01.png" alt="Home rent 01">
+            <div class="showcase_card_info">
+              <h3 class="showcase_card_info_title">
+                Casa 3 quartos, 74m²
+              </h3>
+              <p class="showcase_card_info_txt">
+                Carneirinhos, Av. Wilson Alvarenga, 1364
+              </p>
+              <div class="showcase_card_info_icons">
+                <img src="./assets/icons/home-icon.png" alt="Ícone de casa">
+                <legend>74 m²</legend>
+                <img src="./assets/icons/quartos-icon-.png" alt="Ícone de quartos">
+                <legend>3 quartos</legend>
+                <img src="./assets/icons/car-icon.png" alt="Ícone de carro">
+                <legend>1 vagas</legend>
+                <img src="./assets/icons/banheiro-icon.png" alt="Ícone de banheiro">
+                <legend>2 banheiros</legend>
+              </div>
+              <div class="showcase_card_info_tags">
+                <div class="showcase_card_info_tags_tag">
+                  <span>Área Goumert</span>
+                </div>
+                <div class="showcase_card_info_tags_tag">
+                  <span>Pré Mobiliado</span>
+                </div>
+              </div>
+              <div class="showcase_card_info_price">
+                <div class="price_l">
+                  <span>R$ 16.000</span>
+                  <p>Taxas já inclusas</p>
+                </div>
+                <div class="price_r">
+                  <p>Código: 0004</p>
+                  <a href="">Detalhes e informaçoes</a>
+                </div>
+              </div>
+        </div>
+          </div>
+
+         <div class="h_line"></div>
+
+
+          <div class="showcase_card">
+            <img class="showcase_card_img" src="assets/img/showsace-rent-card-02.png" alt="Home rent 02">
+            <div class="showcase_card_info">
+              <h3 class="showcase_card_info_title">
+                Casa 2 quartos, 65m²
+              </h3>
+              <p class="showcase_card_info_txt">
+                Carneirinhos, Av. Getúlio Vargas, 5030
+              </p>
+              <div class="showcase_card_info_icons">
+                <img src="./assets/icons/home-icon.png" alt="Ícone de casa">
+                <legend>65 m²</legend>
+                <img src="./assets/icons/quartos-icon-.png" alt="Ícone de quartos">
+                <legend>2 quartos</legend>
+                <img src="./assets/icons/car-icon.png" alt="Ícone de carro">
+                <legend>2 vagas</legend>
+                <img src="./assets/icons/banheiro-icon.png" alt="Ícone de banheiro">
+                <legend>2 banheiros</legend>
+              </div>
+              <div class="showcase_card_info_tags">
+                <div class="showcase_card_info_tags_tag">
+                  <span>Área Goumert</span>
+                </div>
+                <div class="showcase_card_info_tags_tag">
+                  <span>Mobiliado</span>
+                </div>
+                <div class="showcase_card_info_tags_tag">
+                  <span>Piscina</span>
+                </div>
+              </div>
+              <div class="showcase_card_info_price">
+                <div class="price_l">
+                  <span>R$ 13.700</span>
+                  <p>Taxas já inclusas</p>
+                </div>
+                <div class="price_r">
+                  <p>Código: 0005</p>
+                  <a href="">Detalhes e informaçoes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="h_line"></div>
+
+          <div class="showcase_card">
+            <img class="showcase_card_img" src="assets/img/showsace-rent-card-03.png" alt="Apto rent 03 ">
+            <div class="showcase_card_info">
+              <h3 class="showcase_card_info_title">
+                Apartamento 2 quartos, 56m²
+              </h3>
+              <p class="showcase_card_info_txt">
+                República, Av. Castelo Branco, 328
+              </p>
+              <div class="showcase_card_info_icons">
+                <img src="./assets/icons/home-icon.png" alt="Ícone de casa">
+                <legend>56 m²</legend>
+                <img src="./assets/icons/quartos-icon-.png" alt="Ícone de quartos">
+                <legend>2 quartos</legend>
+                <img src="./assets/icons/car-icon.png" alt="Ícone de carro">
+                <legend>1 vaga</legend>
+                <img src="./assets/icons/banheiro-icon.png" alt="Ícone de banheiro">
+                <legend>1 banheiros</legend>
+              </div>
+              <div class="showcase_card_info_tags">
+                <div class="showcase_card_info_tags_tag">
+                  <span>Mobiliado</span>
+                </div>
+              </div>
+              <div class="showcase_card_info_price">
+                <div class="price_l">
+                  <span>R$ 3.499</span>
+                  <p>Taxas já inclusas</p>
+                </div>
+                <div class="price_r">
+                  <p>Código: 0006</p>
+                  <a href="">Detalhes e informaçoes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <button type="button" class="product_section_btn"> Mais Opçôes → </button>
     </div>
   </section>
 

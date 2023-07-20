@@ -1,4 +1,4 @@
-.sale_section {
+.product_section {
   width: 1076px;
   height: 590px;
   background-color: var(--white-03);
@@ -6,7 +6,7 @@
   padding: 10px;
 }
 
-.sale_section .sale_section_title {
+.product_section .product_section_title {
   font-size: 30px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -15,7 +15,7 @@
   margin-bottom: 20px;
 }
 
-.sale_section .sale_section_txt {
+.product_section .product_section_txt {
   font-size: 15px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -25,7 +25,7 @@
   margin-bottom: 20px;
 }
 
-.sale_section .wraper_card{
+.product_section .wraper_card{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -33,13 +33,13 @@
   gap: 10px;
 }
 
-.sale_section .wraper_card .h_line {
+.product_section .wraper_card .h_line {
   width: 1px;
   height: 400px;
   background-color: var(--ciano-01);
 }
 
-.sale_section .sale_section_btn {
+.product_section .product_section_btn {
   width: 280px;
   height: 35px;
   background-color: var(--gray-02);

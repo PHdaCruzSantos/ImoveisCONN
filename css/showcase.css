@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
   
 }
 
@@ -144,7 +145,7 @@
   text-decoration: underline;
 }
 
-.showcase .sale_section_btn {
+.showcase .product_section_btn {
   width: 280px;
   height: 35px;
   background-color: var(--gray-02);
@@ -161,7 +162,7 @@
   margin-top: 15px;
 }
 
-.showcase .sale_section_btn:hover {
+.showcase .product_section_btn:hover {
   background-color: var(--salmon-02);
   color: var(--black-01);
   transition: 0.5s;
