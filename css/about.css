@@ -6,12 +6,10 @@
 }
 
 .about .about_title {
-  font-size: 24px;
-  font-family: "Marcellus SC", serif;
+  font-family: 'Marcellus SC', serif;
+  font-size: 30px;
   font-weight: 400;
-  text-align: center;
-  color: var(--black-01);
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0;
 }
 
 .about .about_txt {

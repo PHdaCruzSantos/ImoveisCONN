@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/showcase.css">
   <link rel="stylesheet" href="./css/about.css">
   <link rel="stylesheet" href="./css/client.css">
+  <link rel="stylesheet" href="./css/contact.css">
 
 
   <!-- FONTS -->
@@ -38,7 +39,7 @@
         <li><a href="#imoveis">Imóveis</a></li>
         <li><a href="#about">Sobre Nós</a></li>
         <li><a href="#client">Clientes</a></li>
-        <li><a href="#">Fale Conosco</a></li>
+        <li><a href="#contact_us">Fale Conosco</a></li>
       </ul>
     </div>
   </header>
@@ -453,6 +454,89 @@
       </div>
     </div>
 
+  </section>
+
+  <h1 class="contact_us_title">
+    Fale Conosco
+  </h1>
+  <section class="contact_us" id="contact_us">
+
+    <div class="contact_us_wrapper">
+      <form class="contact_form" autocomplete="on">
+        <fieldset class="fieldset">
+          <legend> Nome </legend>
+          <input type="text" name="Nome" id="form-nome" placeholder="Your Name" required>
+        </fieldset>
+        
+        <fieldset class="fieldset">
+          <legend> Email </legend>
+          <input type="email" name="Email" id="form-email" placeholder="your.email@gmail.com" required>
+        </fieldset>
+        
+        <fieldset class="fieldset">
+          <legend> Telefone </legend>
+          <input type="tel" name="Telefone" id="form_telefone" placeholder="(31) 9 0000-0000" required>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend> Código do imóvel </legend>
+          <select name="" id="">
+            <option value="">Selecione o código do imóvel</option>
+            <option value="">0001</option>
+            <option value="">0002</option>
+            <option value="">0003</option>
+            <option value="">0004</option>
+            <option value="">0005</option>
+            <option value="">0006</option>
+          </select>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend> Mensagem </legend>
+          <textarea name="Mensagem" id="jl-mensage" placeholder="Ex. Estou interessado em visitar esse imóvel, poderia me passar mais informações sobre?" required></textarea>
+        </fieldset>
+
+        <button type="submit" class="jl-btn --bg-green jl--btn-md">Enviar</button>
+      </form>
+    </div>
+
+    <div class="other_contact">
+      <div class="other_contact_item">
+        <img src="assets/icons/phone-icon-2.png" alt="Telefone icon">
+        <p>
+          (31) 9 0000-0000
+        </p>
+      </div>
+
+      <div class="other_contact_item">
+        <img src="assets/icons/insta-icon-2.png" alt="Insta icon">
+        <p>
+          @imoveisCONN
+        </p>
+      </div>
+
+      <div class="other_contact_item">
+        <img src="assets/icons/face-icon-2.png" alt="Face icon">
+        <p>
+          Imóveis CONN
+        </p>
+      </div>
+      
+      <div class="other_contact_item">
+        <img src="assets/icons/email-icon.png" alt="E-mail icon">
+        <p>
+          contato@imoveisconn.com
+        </p>
+      </div>
+      
+      <div class="other_contact_item">
+        <img src="assets/icons/adres-icon.png" alt="Adress icon">
+        <p>
+          Av. Wilson Alvarenga, 1568, Carneirinhos, João Monlevade
+        </p>
+      </div>
+
+    </div>
   </section>
 
 </body>
