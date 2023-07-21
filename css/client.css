@@ -1,0 +1,58 @@
+.client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.client .client_title {
+    font-family: 'Marcellus SC', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+}
+
+.client .client_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    
+}
+
+.client .client_card {
+  width: 335px;
+  height: 425px;
+  background-color: var(--gray-02);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  border: 3px solid transparent;
+}
+
+.client .client_card p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--black-02);
+  text-align: center;
+  
+}
+
+.client .client_card .stars_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.client .client_card:hover {
+  background-color: var(--green-01);
+  transition: 0.5s;
+  border: 3px solid var(--green-02);
+}
+

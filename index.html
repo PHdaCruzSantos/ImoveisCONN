@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="./css/main-content.css">
   <link rel="stylesheet" href="./css/product-section.css">
   <link rel="stylesheet" href="./css/showcase.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/client.css">
 
 
   <!-- FONTS -->
@@ -34,12 +36,13 @@
       <ul>
         <li><a href="#">Início</a></li>
         <li><a href="#imoveis">Imóveis</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Clientes</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#client">Clientes</a></li>
         <li><a href="#">Fale Conosco</a></li>
       </ul>
     </div>
   </header>
+
   <div class="line"></div>
 
   <section id="inicio" class="main_section">
@@ -105,49 +108,48 @@
         Venda
       </h2>
       <div class="wraper_card">
-
-          <div class="showcase_card">
-            <img class="showcase_card_img" src="./assets/img/showcase-sale-card-01.png" alt="Apto 01">
-            <div class="showcase_card_info">
-              <h3 class="showcase_card_info_title">
-                Apartamento 3 quartos 80m²
-              </h3>
-              <p class="showcase_card_info_txt">
-                Carneirinhos, Av. Wilson Alvarenga, 1534
-              </p>
-              <div class="showcase_card_info_icons">
-                <img src="./assets/icons/home-icon.png" alt="Ícone de casa">
-                <legend>80 m²</legend>
-                <img src="./assets/icons/quartos-icon-.png" alt="Ícone de quartos">
-                <legend>3 quartos</legend>
-                <img src="./assets/icons/car-icon.png" alt="Ícone de carro">
-                <legend>3 vagas</legend>
-                <img src="./assets/icons/banheiro-icon.png" alt="Ícone de banheiro">
-                <legend>3 banheiros</legend>
+        <div class="showcase_card">
+          <img class="showcase_card_img" src="./assets/img/showcase-sale-card-01.png" alt="Apto 01">
+          <div class="showcase_card_info">
+            <h3 class="showcase_card_info_title">
+              Apartamento 3 quartos 80m²
+            </h3>
+            <p class="showcase_card_info_txt">
+              Carneirinhos, Av. Wilson Alvarenga, 1534
+            </p>
+            <div class="showcase_card_info_icons">
+              <img src="./assets/icons/home-icon.png" alt="Ícone de casa">
+              <legend>80 m²</legend>
+              <img src="./assets/icons/quartos-icon-.png" alt="Ícone de quartos">
+              <legend>3 quartos</legend>
+              <img src="./assets/icons/car-icon.png" alt="Ícone de carro">
+              <legend>3 vagas</legend>
+              <img src="./assets/icons/banheiro-icon.png" alt="Ícone de banheiro">
+              <legend>3 banheiros</legend>
+            </div>
+            <div class="showcase_card_info_tags">
+              <div class="showcase_card_info_tags_tag">
+                <span>Área Goumert</span>
               </div>
-              <div class="showcase_card_info_tags">
-                <div class="showcase_card_info_tags_tag">
-                  <span>Área Goumert</span>
-                </div>
-                <div class="showcase_card_info_tags_tag">
-                  <span>Mobiliado</span>
-                </div>
-                <div class="showcase_card_info_tags_tag">
-                  <span>Piscina</span>
-                </div>
+              <div class="showcase_card_info_tags_tag">
+                <span>Mobiliado</span>
               </div>
-              <div class="showcase_card_info_price">
-                <div class="price_l">
-                  <span>R$ 489.000</span>
-                  <p>Financiado em 48x</p>
-                </div>
-                <div class="price_r">
-                  <p>Código: 0001</p>
-                  <a href="">Detalhes e informaçoes</a>
-                </div>
+              <div class="showcase_card_info_tags_tag">
+                <span>Piscina</span>
               </div>
-        </div>
+            </div>
+            <div class="showcase_card_info_price">
+              <div class="price_l">
+                <span>R$ 489.000</span>
+                <p>Financiado em 48x</p>
+              </div>
+              <div class="price_r">
+                <p>Código: 0001</p>
+                <a href="">Detalhes e informaçoes</a>
+              </div>
+            </div>
           </div>
+        </div>
 
          <div class="h_line"></div>
 
@@ -242,10 +244,9 @@
         Aluguel
       </h2>
       <div class="wraper_card">
-
-          <div class="showcase_card">
-            <img class="showcase_card_img" src="assets/img/showsace-rent-card-01.png" alt="Home rent 01">
-            <div class="showcase_card_info">
+        <div class="showcase_card">
+          <img class="showcase_card_img" src="assets/img/showsace-rent-card-01.png" alt="Home rent 01">
+          <div class="showcase_card_info">
               <h3 class="showcase_card_info_title">
                 Casa 3 quartos, 74m²
               </h3>
@@ -280,8 +281,8 @@
                   <a href="">Detalhes e informaçoes</a>
                 </div>
               </div>
-        </div>
           </div>
+        </div>
 
          <div class="h_line"></div>
 
@@ -370,6 +371,88 @@
       </div>
       <button type="button" class="product_section_btn"> Mais Opçôes → </button>
     </div>
+
+  </section>
+
+  <section class="about" id="about">
+    <h1 class="about_title">
+      Sobre Nós
+    </h1>
+
+    <div class="about_txt">
+      <p>
+        Somos uma empresa de locação de imóveis dedicada a oferecer soluções abrangentes e confiáveis para locatários e proprietários. Com uma vasta seleção de propriedades disponíveis, combinada com um processo de aluguel simplificado e suporte personalidado, estamos comprometidos em tornar a experiência de locações de imóveis transparente, conveniente e sem complicações. Nossa missao é ajudar você a encontrar o imóvel ideal ou alugar a sua propriedade com facilidade e segurança.
+      </p>
+    </div>
+
+    <div class="about_card_wraper">
+      <div class="about_card">
+        <img src="assets/icons/about-icon-01.png" alt="Missão icon">
+        <p>
+          Nossa <span>missão</span> é simplificar a locação de imóveis, conectando pessoas a lares ideais de forma fácil e confiável. Estamos comprometidos em oferecer uma experiência transparente e satisfatória, ajudando locatários e proprietários a encontrar soluções que atendam às suas necessidades.
+        </p>
+      </div>
+      <div class="about_card">
+        <img src="assets/icons/about-icon-02.png" alt="Visão icon">
+        <p>
+          Nossa <span>visão</span> é ser líderes no mercado de locação de imóveis, oferecendo uma plataforma confiável e eficiente para conectar locatários e proprietários. Buscamos proporcionar uma experiência superior, simplificando o processo de aluguel e atendendo às necessidades de nossos clientes de maneira excepcional.
+        </p>
+      </div>
+      <div class="about_card">
+        <img src="assets/icons/about-icon-03.png" alt="Valores icon">
+        <p>
+          Nossos <span>valores</span> fundamentais são transparência, confiabilidade e excelência. Acreditamos na importância de agir com integridade, estabelecendo relações de confiança com nossos clientes por meio de uma comunicação transparente e honesta. Buscamos constantemente a excelência em nossos serviços.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="client" id="client">
+    <h1 class="client_title">
+      Clientes Satisfeitos
+    </h1>
+    <div class="client_wrapper">
+      <div class="client_card">
+        <img src="assets/img/client-01.png" alt="Cliente icon">
+        <p>
+          "Encontrei meu novo lar através desta empresa e estou encantada! A equipe foi muito receptiva e paciente ao me mostrar várias opções. Eles responderam prontamente a todas as minhas perguntas e me guiaram durante todo o processo de locação. Estou extremamente satisfeita com o resultado!" - Hugo Assis Neres.
+        </p>
+        <div class="stars_wrap">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+        </div>
+      </div>
+      <div class="client_card">
+        <img src="assets/img/client-02.png" alt="Cliente icon">
+        <p>
+          "Alugar meu imóvel nunca foi tão simples! A equipe desta empresa cuidou de tudo, desde a divulgação até a seleção do locatário. Eles encontraram um inquilino confiável rapidamente e garantiram que todos os detalhes do contrato fossem tratados de forma adequada. Estou muito satisfeito com o serviço prestado!" - Ana Beatriz Lourenço.
+        </p>
+        <div class="stars_wrap">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+        </div>
+      </div>
+      <div class="client_card">
+        <img src="assets/img/client-03.png" alt="Cliente icon">
+        <p>
+          "Fui atendido com muita atenção e profissionalismo ao procurar um imóvel para alugar. A equipe compreendeu minhas necessidades e me apresentou várias opções adequadas. Encontrei o lugar perfeito e todo o processo foi tranquilo. Estou realmente satisfeito com o serviço deles!" - Lucas Pedro Aguiar.
+        </p>
+        <div class="stars_wrap">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+          <img src="assets/icons/star.svg" alt="EStrela svg">
+        </div>
+      </div>
+    </div>
+
   </section>
 
 </body>

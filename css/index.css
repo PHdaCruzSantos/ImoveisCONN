@@ -45,7 +45,7 @@ table {
 	border-spacing: 0;
 }
 :root{
-  --green-01: #98f6a9;
+  --green-01: rgb(152, 246, 169);
   --green-02: #9bd3ae;
   --green-03: #0c3c1c;
   --salmon-01: #ffeebc;
