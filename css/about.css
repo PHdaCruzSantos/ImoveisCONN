@@ -1,0 +1,66 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .about_title {
+  font-size: 24px;
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  text-align: center;
+  color: var(--black-01);
+  margin-bottom: 20px;
+}
+
+.about .about_txt {
+  width: 886px;
+  background-color: var(--gray-02);
+  padding: 20px 95px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  
+}
+
+.about .about_txt p {
+  font-size: 20px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  color: var(--black-01);
+}
+
+.about .about_card_wraper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about .about_card {
+  width: 350px;
+  height: 320px;
+  background-color: var(--gray-02);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+  border: 5px solid var(--green-01);
+}
+
+.about .about_card span {
+  font-size: 15px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--black-01);
+  text-shadow: 0px 4px 4px rgba(74, 253, 231, 01);
+}
