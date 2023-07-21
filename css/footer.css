@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-01);
+  border-radius: 0.5rem;
+  height: 80px;
+  position: static;
+  
+
+}
+
+.footer p {
+  font-family: "Marcellus SC", serif;
+  font-size: 20PX;
+  color: var(--black-02);
+  
+}
