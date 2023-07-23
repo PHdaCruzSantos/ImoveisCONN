@@ -43,7 +43,7 @@
   font-family: "Marcellus SC", serif;
   font-size: 20px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px ;
 
   color: var(--black-01);
@@ -56,7 +56,7 @@
   font-family: "Marcellus SC", serif;
   font-weight: 400;
   line-height: normal;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px ;
   color: var(--black-01);
 }
@@ -86,8 +86,8 @@
 .showcase_card .showcase_card_info_tags {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   gap: 10px;
   margin-bottom: 20px;
 }
@@ -98,7 +98,7 @@
   height: 20px;
   border-radius: 5px;
   color: var(--black-01);
-  border: 2px solid var(--green-01);
+  
 }
 
 .showcase_card_info .showcase_card_info_price {
@@ -114,7 +114,7 @@
   font-weight: 700;
   line-height: normal;
   text-align: left;
-  color: var(--green-03);
+  color: var(--green-04);
   margin: 5px 0 ;
 }
 .showcase_card_info .showcase_card_info_price .price_l p {
@@ -142,7 +142,7 @@
   font-weight: 400;
   line-height: normal;
   text-align: right;
-  color: var(--green-03);
+  color: var(--green-04);
   margin: 5px 0 ;
   text-decoration: underline;
 }

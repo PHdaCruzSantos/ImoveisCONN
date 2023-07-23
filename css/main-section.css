@@ -9,6 +9,10 @@
   margin-bottom: 50px;
 }
 
+.gap {
+  padding-top: 90px;
+}
+
 .main_section .main_section_left {
   width: 404px;
   
@@ -20,11 +24,12 @@
 }
 
 .main_section .main_section_left h1{
-  font-size: 40px;
+  font-size: 46px;
   font-weight: 400;
   font-family: 'Inter', serif;
   color: var(--black-01);
-  text-align: center;
+  text-align: left;
+  padding-left: 75px;
   text-shadow: rgba(0, 0, 0,  0.25) 0px 4px 4px;
   text-decoration: underline var(--green-01);
 }

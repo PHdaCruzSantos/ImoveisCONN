@@ -51,6 +51,7 @@ table {
   --green-01: rgb(152, 246, 169);
   --green-02: #9bd3ae;
   --green-03: #0c3c1c;
+  --green-04: #71ac84;
   --salmon-01: #ffeebc;
   --salmon-02: #e2e3e7;
   --ciano-01: #4afde7;
@@ -91,7 +92,7 @@ table {
 	animation: spin 1.35s linear infinite;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 51.5%;
 	margin-top: -60px;
 	margin-left: -60px;
   }
