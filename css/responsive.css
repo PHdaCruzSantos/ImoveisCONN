@@ -1,0 +1,193 @@
+/* @media screen and (min-width: 576px) {
+  .main_section {
+    padding: 1.5rem;
+  }
+
+  .main_content {
+    padding: 1.5rem;
+  }
+
+  .card {
+    max-width: 45%;
+  }
+
+  .about_card_wraper .about_card {
+    max-width: 45%;
+  }
+
+  .contact_us_wrapper {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main_section {
+    padding: 2rem;
+  }
+
+  .main_content {
+    padding: 2rem;
+  }
+
+  .card {
+    max-width: 30%;
+  }
+
+  .about_card_wraper .about_card {
+    max-width: 30%;
+  }
+
+  .contact_us_wrapper {
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .main_section {
+    padding: 3rem;
+  }
+
+  .main_content {
+    padding: 3rem;
+  }
+
+  .card {
+    max-width: 25%;
+  }
+
+  .about_card_wraper .about_card {
+    max-width: 25%;
+  }
+
+  .contact_us_wrapper {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main_section {
+    padding: 4rem;
+  }
+
+  .main_content {
+    padding: 4rem;
+  }
+
+  .card {
+    max-width: 20%;
+  }
+
+  .about_card_wraper .about_card {
+    max-width: 20%;
+  }
+
+  .contact_us_wrapper {
+    max-width: 50%;
+  }
+}
+*/
+
+@media screen and (max-width: 768px) {
+  .main_section {
+    width: 540px;
+    height: 250px;
+  }
+  
+  .main_section .main_section_left {
+    width: 202px;
+    height: 125px;
+  }
+
+  .main_section .main_section_left h1{
+    font-size: 25px;
+  }
+
+  .main_section .main_section_left .main_section_left_btn {
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .main_section .main_section_right {
+    display: none;
+  }
+
+  .main_section .main_section_right img {
+    display: none;
+  }
+
+  .main_content .main_content_title {
+    font-size: 1.5rem;
+  }
+
+  .main_content .card {
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .main_content .card .card_img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .main_content .card .card_title {
+    font-size: 15px;
+  }
+
+  .main_content .card .card_txt {
+    font-size: 15px;
+  }
+
+  .main_content_btn {
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .about .about_title {
+    font-size: 25px;
+  }
+
+  .about .about_txt {
+    width: 540px;
+    padding: 10px;
+    margin-left: 0px;
+  }
+
+  .about .about_txt p {
+    font-size: 15px;
+  }
+
+  .about .about_card_wraper{
+    gap: 5px;
+  }
+
+  .about .about_card {
+    width: 180px;
+    height: 200px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .about_card p {
+    font-size: 16px;
+    
+  }
+  .about_card img {
+    display: none;
+  }
+
+  .about .about_card span {
+    font-size: 15px;
+  }
+
+  .contact_us_wrapper {
+    width: 540px;
+    padding: 10px;
+  }
+  
+}

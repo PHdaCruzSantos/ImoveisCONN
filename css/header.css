@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .header ul{
@@ -31,7 +32,7 @@
 .header ul li a{
   text-decoration: none;
   color: var(--black-01);
-  font-size: 22px;
+  font-size: calc(1em + 0.5vw);
   font-weight: 400;
   font-family: 'Marcellus SC', serif;
   
@@ -51,7 +52,7 @@
 }
 
 .line {
-  width: 95%;
+  width: calc(100% - 80px);
   height: 4px;
   background-color: var(--black-01);
   margin-top: 10px;

@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
 }
  .contact_us_title {
   font-family: 'Inter', sans-serif;
@@ -13,6 +12,13 @@
     text-align: center;
 
 }
+
+@media screen and (min-width: 1500px) {
+  .contact_us {
+    justify-content: center;
+  }
+}
+
 
 .contact_us .contact_us_wrapper {
     display: flex;

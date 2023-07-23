@@ -66,3 +66,11 @@ table {
 
   
 } 
+
+/* align in all content and class in center*/
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1500px;
+    margin: 0 auto;
+  }
+}
