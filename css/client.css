@@ -7,7 +7,7 @@
 }
 
 .client .client_title {
-    font-family: 'Marcellus SC', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 400;
     margin: 10px 0 20px 0;
@@ -24,14 +24,14 @@
 .client .client_card {
   width: 335px;
   height: 425px;
-  background-color: var(--gray-02);
+  background-color: var(--gray-01);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding: 5px;
-  border: 3px solid transparent;
+  border: 2.5px solid var(--gray-03);
 }
 
 .client .client_card p {
@@ -53,6 +53,6 @@
 .client .client_card:hover {
   background-color: var(--green-01);
   transition: 0.5s;
-  border: 3px solid var(--green-02);
+  border: 2.5px solid var(--green-02);
 }
 

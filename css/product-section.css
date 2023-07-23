@@ -1,6 +1,6 @@
 .product_section {
   width: 1076px;
-  background-color: var(--white-03);
+  background-color: transparent;
   margin: 0 auto;
   padding: 10px;
 }
@@ -35,7 +35,7 @@
 .product_section .wraper_card .h_line {
   width: 1px;
   height: 400px;
-  background-color: var(--ciano-01);
+  background-color: var(--black-01);
 }
 
 .product_section .product_section_btn {

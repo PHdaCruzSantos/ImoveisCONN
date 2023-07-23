@@ -10,6 +10,7 @@
   font-size: 30px;
   font-weight: 700;
   color: var(--black-01);
+  font-family: 'Inter', sans-serif;
 }
 
 .last_content .last_content_txt {

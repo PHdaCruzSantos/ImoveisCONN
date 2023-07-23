@@ -6,7 +6,7 @@
 }
 
 .about .about_title {
-  font-family: 'Marcellus SC', serif;
+  font-family: 'Inter', sans-serif;
   font-size: 30px;
   font-weight: 400;
   margin: 10px 0 20px 0;
@@ -14,7 +14,9 @@
 
 .about .about_txt {
   width: 886px;
-  background-color: var(--gray-02);
+  background-color: var(--gray-01);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2.5px solid var(--gray-03);
   padding: 20px 95px;
   border-radius: 5px;
   margin-bottom: 25px;
@@ -42,7 +44,7 @@
 .about .about_card {
   width: 350px;
   height: 320px;
-  background-color: var(--gray-02);
+  background-color: var(--gray-01);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -50,7 +52,8 @@
   align-items: center;
   padding: 0 10px;
   text-align: center;
-  border: 5px solid var(--green-01);
+  border: 2.5px solid var(--gray-03);
+
 }
 
 .about .about_card span {

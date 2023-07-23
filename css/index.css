@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  background-color: var(--white-03);
+  background-color: #f6f6ff;
 }
 ol, ul {
 	list-style: none;
@@ -64,5 +64,5 @@ table {
   --gray-02: #bfbfbf;
   --gray-03: #999999;
 
-
+  
 } 
