@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Imóveis CONN</title>
-  <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/img/IC-logo.png" type="image/x-icon">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
   <!-- CSS -->
   <link rel="stylesheet" href="./css/index.css">
@@ -19,8 +23,6 @@
   <link rel="stylesheet" href="./css/contact.css">
   <link rel="stylesheet" href="./css/last-content.css">
   <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/responsive.css">
-
 
 
   <!-- FONTS -->
@@ -28,8 +30,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
 </head>
-<body>
- 
+<body oncontextmenu="return false">
+  
+  <div class="preloader" id="preloader">
+    <div class="loader" id="loader"></div>
+  </div>
 
   <header class="header">
     <div class="logo">
@@ -38,13 +43,15 @@
 
     </div>
     <div class="menu">
-      <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#imoveis">Imóveis</a></li>
-        <li><a href="#about">Sobre Nós</a></li>
-        <li><a href="#client">Clientes</a></li>
-        <li><a href="#contact_us">Fale Conosco</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#imoveis">Imóveis</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#client">Clientes</a></li>
+          <li><a href="#contact_us">Fale Conosco</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -460,6 +467,7 @@
 
   </section>
 
+  <br>
   <h1 class="contact_us_title" id="contact_us">
     Fale Conosco
   </h1>
@@ -506,35 +514,45 @@
 
     <div class="other_contact">
       <div class="other_contact_item">
-        <img src="assets/icons/phone-icon-2.png" alt="Telefone icon">
+        <a href="https://api.whatsapp.com/send?phone=5533988211859">
+          <img src="assets/icons/wpp-icon-3.png" alt="Telefone icon">
+        </a>
         <p>
           (31) 9 0000-0000
         </p>
       </div>
 
       <div class="other_contact_item">
-        <img src="assets/icons/insta-icon-2.png" alt="Insta icon">
+        <a href="https://www.instagram.com/visaojrufop/">
+          <img src="assets/icons/insta-icon-2.png" alt="Insta icon">
+        </a>
         <p>
           @imoveisCONN
         </p>
       </div>
 
       <div class="other_contact_item">
-        <img src="assets/icons/face-icon-2.png" alt="Face icon">
+        <a href="https://www.facebook.com/visaojrufop/">
+          <img src="assets/icons/face-icon-2.png" alt="Face icon">
+        </a>
         <p>
           Imóveis CONN
         </p>
       </div>
       
       <div class="other_contact_item">
-        <img src="assets/icons/email-icon.png" alt="E-mail icon">
+        <a href="mailto:contato@imoveisconn.com">
+          <img src="assets/icons/email-icon.png" alt="E-mail icon">
+        </a>
         <p>
           contato@imoveisconn.com
         </p>
       </div>
       
       <div class="other_contact_item">
-        <img src="assets/icons/adres-icon.png" alt="Adress icon">
+        <a href="https://www.google.com.br/maps/place/Instituto+de+Ci%C3%AAncias+Exatas+e+Aplicadas+-+ICEA%2FUFOP/@-19.8361867,-43.1702806,17z/data=!3m1!4b1!4m6!3m5!1s0xa507511efdbbd3:0x55a7ef3c198b9753!8m2!3d-19.8361918!4d-43.1677057!16s%2Fg%2F1tf172_b?entry=ttu">
+          <img src="assets/icons/adres-icon.png" alt="Adress icon">
+        </a>
         <p>
           Av. Wilson Alvarenga, 1568, Carneirinhos, João Monlevade
         </p>
@@ -543,6 +561,8 @@
     </div>
   </section>
 
+  <br>
+  <br>
 <div class="last_content">
   <h1 class="last_content_title">
     Conquiste o seu imóvel dos sonhos com a gente!
@@ -552,6 +572,7 @@
   </h4>
   <button type="button" class="last_content_btn"> Conhecer imóveis → </button>
   <img src="assets/img/IC-icon-xl.png" alt="IC logo xl">
+  <br>
 </div>
 
 <footer class="footer">
@@ -561,5 +582,6 @@
   </p>
 </footer>
 
+  <script src="js/script_preloader.js"></script> 
 </body>
 </html>
